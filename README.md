@@ -48,7 +48,7 @@ AAAA → #4A
 
 ```
 .
-├── compressor_rle.c
+├── compressor.c
 └── README.md
 ```
 
@@ -65,7 +65,7 @@ AAAA → #4A
 ## **Compile Instructions (Linux)**
 
 ```bash
-gcc compressor_rle.c -o compressor -lpthread
+gcc compressor.c -o compressor -lpthread
 ```
 
 ---
@@ -151,7 +151,7 @@ Your Name
 ## **1. Save the file**
 
 ```bash
-nano compressor_rle.c
+nano compressor.c
 ```
 
 Paste the code, then:
@@ -164,7 +164,7 @@ CTRL+X
 ## **2. Compile**
 
 ```bash
-gcc compressor_rle.c -o compressor -lpthread
+gcc compressor.c -o compressor -lpthread
 ```
 
 ---
